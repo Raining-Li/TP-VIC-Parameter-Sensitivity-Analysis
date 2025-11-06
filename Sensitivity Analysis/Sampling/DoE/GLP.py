@@ -4,8 +4,7 @@ from __future__ import division, print_function, absolute_import
 import numpy as np
 import fractions as fc
 import itertools
-from UQ.DoE.discrepancy import CD2
-#from discrepancy_cython import CD2
+from DoE.discrepancy import CD2
 
 def sample(n, s):
     ''' main function of GLP design'''
@@ -125,4 +124,5 @@ def glpmod(n,h):
             if u[i,j] == 0:
                 u[i,j] = n
     return u
+
 
