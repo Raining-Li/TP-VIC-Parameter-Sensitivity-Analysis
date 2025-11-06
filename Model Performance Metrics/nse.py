@@ -1,9 +1,5 @@
 # -*-coding:utf-8 -*-
-'''
-Date:2025-7-25
-Author:liyazhen
-Description：计算KGE指标,SPAEF和NSE
-'''
+
 import numpy as np
 import pandas as pd
 from pandas.testing import assert_frame_equal
@@ -17,4 +13,5 @@ def Calcnash(obs, sim):
             1 - (np.sum((sim - obs) ** 2) / np.sum((obs - np.mean(obs)) ** 2))))  
 
     return nash
+
 
