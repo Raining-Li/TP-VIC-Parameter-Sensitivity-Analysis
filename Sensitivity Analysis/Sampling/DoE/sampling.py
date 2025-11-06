@@ -1,9 +1,4 @@
 # -*- coding: utf-8 -*-
-"""
-Definition of Sampling Methods
-Created on Mon May 12 19:53:23 2015
-@author: gongwei
-"""
 
 from __future__ import division, print_function, absolute_import
 import numpy as np
