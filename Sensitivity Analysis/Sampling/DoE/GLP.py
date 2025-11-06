@@ -1,8 +1,4 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Mon Nov 17 14:18:23 2014
-@author: gongwei
-"""
 # Good Lattice Points method for Uniform Design
 from __future__ import division, print_function, absolute_import
 import numpy as np
@@ -129,3 +125,4 @@ def glpmod(n,h):
             if u[i,j] == 0:
                 u[i,j] = n
     return u
+
