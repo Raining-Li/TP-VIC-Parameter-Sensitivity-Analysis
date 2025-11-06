@@ -2,7 +2,7 @@
 
 from __future__ import division, print_function, absolute_import
 import numpy as np
-from UQ.DoE import GLP
+from DoE import GLP
 
 def MonteCarloDesign(n,s):
     ''' Generate Monte Carlo Design
